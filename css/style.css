@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+img {
+    width: 100%;
+}
+
+body {
+    color: #33475b;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-top,
+.nav-bottom {
+    font-size: 15px;
+}
+
+/* HEADER */
+
+/* NAV TOP */
+.nav-top {
+    background-color: #f5f8fa;
+    border-bottom: 1px solid black;
+}
+
+.nav-top span {
+    border-right: 1px solid black;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-top a {
+    text-decoration: none;
+    color: #33475b;
+}
+
+.fa-chevron-down {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.col-right {
+    text-align: right;
+}
+
+.col-left,
+.col-right {
+    width: 50%;
+    float: left;
+}
+/* COL RIGHT */
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+ul:first-child a {
+    color: #07a9c3;
+    font-size: 13px;
+}
+
+.menu .login {
+    border: 1px solid #ff7a59;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ff7a59;
+}
+
+.menu .botton {
+    color: white;
+    background-color: #ff7a59;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+/* END NAV TOP */
+
+/* NAV BOTTOM */
+.nav-bottom {
+    background-color: white;  /* CAMBIARE IL COLORE IN BIANCO */
+}
+
+.logo {
+    width: 20%;
+}
+
+.nav-bottom .col-left {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-bottom .menu li {
+    margin-left: 20px;
+}
+.nav-bottom .menu span {
+    margin-left: 10px;
+}
+/*
+.banner {
+    height: 200px;
+    background-image: url("../img/jumbotron.png");
+    background-size: 1000px;
+}
