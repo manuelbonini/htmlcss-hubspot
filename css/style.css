@@ -14,6 +14,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+main {
+    background-color: #f5f8fa;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -42,6 +46,11 @@ body {
     border-radius: 5px;
     border: 1px solid white;
 }    
+
+.small-container {
+    width: 60%;
+    margin: auto;
+}
 
 /* HEADER */
 
@@ -128,23 +137,27 @@ li:first-child a {
 
 /* BANNER */
 .banner {
-    height: 500px;
-    background-color: #fff3ee;
+    height: 470px;
+    background-color: #fef6ef;
     background-image: url("../img/jumbotron.png");
-    background-size: 1000px;
+    background-size: 1100px;
     background-repeat: no-repeat;
-    background-position: 100% 615%;
+    background-position: 100% 0%;
     display: block;
-    border-bottom: 2px solid black;
 }
 
 .main-text {
     width: 50%;
 }
 
+.banner h1 {
+    padding-top: 40px;
+}
+
 .banner .botton {
     display: inline-block;
-
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .banner h1 {
@@ -154,6 +167,7 @@ li:first-child a {
 .banner p {
     padding-top: 30px;
     padding-bottom: 30px;
+    font-size: 13px;
 }
 
 .main-text div {
@@ -165,5 +179,23 @@ li:first-child a {
     height: 60px;
     background-color: #87e1d6;
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+/* END HEADER */
+
+/* MAIN */
+.main-logo {
+    width: 200px;
+    margin: auto;
+    padding-top: 40px;
 }
 
+.small-container h2 {
+    text-align: center;
+}
+
+main .container p {
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 0;
+}
