@@ -178,8 +178,8 @@ li:first-child a {
 .row {
     height: 60px;
     background-color: #87e1d6;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+    border-bottom: 2px solid #33475b;
+    border-top: 2px solid #33475b;
 }
 /* END HEADER */
 
@@ -198,4 +198,132 @@ main .container p {
     font-size: 18px;
     text-align: center;
     padding: 30px 0;
+}
+
+/* FIRST SECTION */
+.first-row {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.first-col {
+    float: left;
+    width: 30%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.col-img {
+    width: 150px;
+    margin: auto;
+}
+
+.first-col .botton {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.second-col {
+    float: left;
+    width: 70%;
+    padding-top: 45px;
+}
+
+.container p.font {
+    text-align: left;
+    font-size: 16px;
+}
+
+.line-feature h3 {
+    float: left;
+    width: 40%;
+}
+.line-feature div {
+    float: left;
+    border-bottom: 2px solid #33475b;
+    width: 50%;
+    padding-top: 11px;
+}
+
+.second-col li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.second-col ul {
+    margin-top: 20px;
+}
+
+.second-col i {
+    color: #ff7a59;
+}
+
+/* THREE COL */
+.three-col {
+    margin-top: 30px;
+}
+
+.three-col .col-left,
+.col-middle,
+.col-right {
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+ .col-middle {
+     margin: 0 5%;
+ }
+
+ .three-col .col-img {
+     margin-top: 10px;
+     width: 100px;
+ }
+
+ .three-col p.font {
+     text-align: center;
+     width: 80%;
+     margin: auto;
+     font-size: 13px;
+ }
+
+ .three-col h3 {
+     margin-top: 20px;
+ }
+
+ .line {
+     border-bottom: 2px solid #33475b;
+     width: 80%;
+     margin: auto;
+ }
+
+ .three-col ul {
+     text-align: left;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.three-col i {
+    color: #ff7a59;
+    margin-right: 10px;
+}
+
+.three-col .botton {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.three-col .col-middle .col-img {
+    width: 125px;
+}
+.three-col .col-right .col-img {
+    width: 91px;
 }
