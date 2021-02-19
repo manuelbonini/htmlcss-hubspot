@@ -184,6 +184,8 @@ li:first-child a {
 /* END HEADER */
 
 /* MAIN */
+
+/* LOGO */
 .main-logo {
     width: 200px;
     margin: auto;
@@ -201,6 +203,8 @@ main .container p {
 }
 
 /* FIRST SECTION */
+
+/* FIRST ROW */
 .first-row {
     background-color: white;
     border-radius: 5px;
@@ -264,6 +268,7 @@ main .container p {
 /* THREE COL */
 .three-col {
     margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .three-col .col-left,
@@ -326,4 +331,68 @@ main .container p {
 }
 .three-col .col-right .col-img {
     width: 91px;
+}
+
+/* SECOND SECTION */
+.green {
+    background-color: #00b6ac;
+    padding-bottom: 50px;
+}
+
+.green h2 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.green p.font {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* LINE */
+.line-1,
+.line-2 {
+    text-align: center;
+}
+
+ .small-img {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding-bottom: 20px;
+ }
+
+.line-1 .small-img {
+    border-bottom: 2px solid white;
+}
+
+ .small-img img {
+     width: auto;
+     height: 30px;
+     margin-top: 20px;
+ }
+
+ .border {
+     border-left: 2px solid white;
+     margin-left:-4px;
+ }
+
+ .small-img div {
+     font-size: 40px;
+     color: white;
+     font-weight: 600;
+     vertical-align: middle;
+     padding-bottom: 5px;
+ }
+ .small-img div span {
+     font-size: 40px;
+     font-weight: normal;
+ }
+
+.small-img span {
+    font-size: 12px;
+    color: white;
 }
