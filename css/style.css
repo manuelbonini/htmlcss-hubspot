@@ -396,3 +396,80 @@ main .container p {
     font-size: 12px;
     color: white;
 }
+
+.end-main .col-left {
+    width: 30%;
+    text-align: left;
+}
+
+.end-main .col-right {
+    width: 70%;
+    background-color: #f5f8fa;
+}
+
+.end-main .col-left div {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.end-main .col-left .font {
+    font-size: 16px;
+}
+
+.end-main .col-right img {
+    width: 110px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.end-main .col-right div:first-child {
+    padding-top: 50px;
+}
+
+.end-main .col-right div:last-child {
+    padding-top: 20px;
+}
+
+/* parte finale del main */
+.container h2.font-title {
+    font-size: 24px;
+}
+
+.end-main div:last-child.container {
+    padding-top: 70px;
+}
+
+.end-main div:last-child .col-left {
+    width: 40%;
+}
+
+.end-main div:last-child .col-right {
+    width: 60%;
+}
+
+.end-main div:last-child .font{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.end-main div:last-child .botton {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.end-main div:last-child .col-left div{
+    color: #5b7796;
+    font-size: 8px;
+}
+
+/* colonna destra */
+
+.end-main div:last-child .col-right div img {
+    width: 250px;
+    position: relative;
+    left: 160px;
+    bottom: 50px;
+}
